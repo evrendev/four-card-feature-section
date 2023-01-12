@@ -1,0 +1,41 @@
+:root {
+  //Colors
+  --clr-primary-400: hsl(0, 78%, 62%); // Red
+  --clr-primary-500: hsl(180, 62%, 55%); // Cyan
+  --clr-primary-600: hsl(34, 97%, 64%); // Orange
+  --clr-primary-700: hsl(212, 86%, 64%); // Blue
+
+  --clr-neutral-100: hsl(0, 0%, 100%); // White
+  --clr-neutral-400: hsl(0, 0%, 98%); // Very Light Gray
+  --clr-neutral-700: hsl(229, 6%, 66%); // Grayish Blue
+  --clr-neutral-900: hsl(234, 12%, 34%); // Very Dark Blue
+
+  //Font Family
+  --ff-primary: "Plus Jakarta Sans", sans-serif;
+
+  //Font Defines
+  --ff-body: var(--ff-primary);
+
+  //Font Weight
+  --fw-extra-light: 200;
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+
+  //Sizes
+  --size-400: 0.9375rem;
+  --size-500: 1.066rem;
+  --size-600: 1.2rem;
+  --size-700: 1.6rem;
+  --size-800: 2rem;
+  --size-900: 3rem;
+
+  //Font Size
+  --fs-400: var(--size-400);
+  --fs-500: var(--size-500);
+  --fs-600: var(--size-600);
+  --fs-700: var(--size-700);
+  --fs-800: var(--size-800);
+  --fs-900: var(--size-900);
+
+  --fs-body: var(--fs-400);
+}
