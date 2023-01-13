@@ -93,7 +93,7 @@ I am looking forward to the next project to build on the CSS grid experience and
 ### Useful resources
 
 - [Kevin Powell](https://www.kevinpowell.co/) - Kevin Powell is an excellent teacher and I relied heavily on the notes that I took from his CSS courses taught on scrimba.com.
-- [A Complete Guide to Flexbox ](https://css-tricks.com/snippets/css/a-guide-to-flexbox//) - I have found css.tricks.com to be a valuable resourse for flexbox, and all things CSS.
+- [A Complete Guide to Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/) -  I have found css.tricks.com to be a valuable resourse for grid, flexbox, and all things CSS.
 
 ## Author
 
