@@ -1,11 +1,13 @@
 <script>
 import HeaderComponent from "./components/HeaderComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 import CardComponent from "./components/CardComponent.vue";
 export default {
   name: "App",
   components: {
     HeaderComponent,
     CardComponent,
+    FooterComponent,
   },
 };
 </script>
@@ -13,7 +15,7 @@ export default {
 <template>
   <main class="flex align-items-center flex-direction-column">
     <header-component />
-    <section role="presentation">
+    <div class="cards">
       <card-component
         :title="'Supervisor'"
         :description="'Monitors activity to identify project roadblocks'"
@@ -42,7 +44,8 @@ export default {
         :theme="'bg-primary-700'"
         class="calculator"
       />
-    </section>
+    </div>
+    <footer-component />
   </main>
 </template>
 
