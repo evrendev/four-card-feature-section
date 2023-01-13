@@ -1,6 +1,6 @@
 <template>
-  <footer>
-    <div class="attribution" role="contentinfo">
+  <footer role="contentinfo">
+    <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/evrendev" target="_blank">Evren Yeniev</a>.
