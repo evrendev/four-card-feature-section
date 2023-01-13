@@ -33,7 +33,7 @@
     border-top: 0.25rem solid var(--clr-primary-700);
   }
 
-  h3 {
+  h1 {
     line-height: 1.875rem;
   }
 
@@ -50,7 +50,7 @@
   }
 
   .icon {
-    margin-top: 2.666666rem;
+    margin-top: 2.5rem;
 
     @include media(mobile) {
       margin-top: 2rem;

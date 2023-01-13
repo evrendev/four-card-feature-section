@@ -13,7 +13,7 @@ export default {
 <template>
   <main class="flex align-items-center flex-direction-column">
     <header-component />
-    <section role="cards">
+    <section role="presentation">
       <card-component
         :title="'Supervisor'"
         :description="'Monitors activity to identify project roadblocks'"

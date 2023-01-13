@@ -28,9 +28,9 @@ export default {
 
 <template>
   <div class="card">
-    <h3 class="fs-700 fw-semi-bold">
+    <h1 class="fs-700 fw-semi-bold">
       {{ title }}
-    </h3>
+    </h1>
     <p class="fs-300 text-neutral-900 fw-regular opacity-50">
       {{ description }}
     </p>
