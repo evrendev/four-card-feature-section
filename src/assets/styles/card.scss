@@ -1,0 +1,63 @@
+@import "./shared/responsive";
+
+.card {
+  max-height: 250px;
+  height: 250px;
+  padding: 2rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 0.125rem 0.9375rem 0.25rem rgba(0, 0, 0, 0.1);
+
+  @include media(mobile) {
+    padding: 1.75rem;
+    max-height: 222px;
+    height: 222px;
+  }
+
+  &.team-builder {
+    grid-area: team;
+    border-top: 0.25rem solid var(--clr-primary-400);
+  }
+
+  &.supervisor {
+    grid-area: supervisor;
+    border-top: 0.25rem solid var(--clr-primary-500);
+  }
+
+  &.karma {
+    grid-area: karma;
+    border-top: 0.25rem solid var(--clr-primary-600);
+  }
+
+  &.calculator {
+    grid-area: calculator;
+    border-top: 0.25rem solid var(--clr-primary-700);
+  }
+
+  h3 {
+    line-height: 1.875rem;
+  }
+
+  p {
+    margin-top: var(--size-100);
+    line-height: var(--size-800);
+    letter-spacing: 0.0902778px;
+    mix-blend-mode: normal;
+
+    @include media(mobile) {
+      margin-top: 0;
+      font-size: var(--fs-200);
+    }
+  }
+
+  .icon {
+    margin-top: 2.666666rem;
+
+    @include media(mobile) {
+      margin-top: 2rem;
+
+      svg {
+        transform: scale(0.9);
+      }
+    }
+  }
+}

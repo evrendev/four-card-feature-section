@@ -3,16 +3,51 @@
 body {
   font-family: var(--ff-body);
   font-size: var(--fs-body);
-  color: var(--clr-neutral-800);
+  color: var(--clr-neutral-900);
   background-color: var(--clr-neutral-400);
 
   min-height: 100vh;
-  display: grid;
-  place-content: center;
 }
 
 #app {
   main {
-    display: flex;
+    @include media(mobile) {
+      padding: 2rem;
+    }
+
+    section {
+      max-width: 1110px;
+      margin-top: 4.25rem;
+      display: grid;
+      align-items: center;
+      place-content: center;
+      gap: 1.875rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas:
+        "supervisor team calculator"
+        "supervisor karma calculator";
+
+      @include media(mobile) {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .supervisor {
+        grid-area: supervisor;
+      }
+
+      .team-builder {
+        grid-area: team;
+      }
+
+      .calculator {
+        grid-area: calculator;
+      }
+
+      .karma {
+        grid-area: karma;
+      }
+    }
   }
 }

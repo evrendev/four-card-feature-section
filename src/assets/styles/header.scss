@@ -1,0 +1,24 @@
+@import "./shared/responsive";
+
+header {
+  max-width: 540px;
+
+  h1 {
+    letter-spacing: 0.25px;
+
+    @include media(mobile) {
+      font-size: var(--size-800);
+      letter-spacing: 0.1666667px;
+      line-height: var(--size-900);
+    }
+  }
+
+  p {
+    margin-top: var(--size-500);
+    line-height: var(--size-800);
+
+    @include media(mobile) {
+      letter-spacing: 0.1041667px;
+    }
+  }
+}

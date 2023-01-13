@@ -16,7 +16,7 @@ export default {
     dynamicComponent() {
       const name = this.name;
 
-      return defineAsyncComponent(() => import(`../assets/images/${name}.svg`));
+      return defineAsyncComponent(() => import(`../assets/images/icon-${name}.svg`));
     },
   },
 };
